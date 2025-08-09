@@ -1,0 +1,62 @@
+:root {
+    --border-color: rgba(90, 90, 120, 0);
+    --border-color-active: rgba(141, 88, 219, 0.9);
+
+    --bg-color: rgba(20, 20, 20, 0.9);
+    --bg-color-hover: rgba(221, 56, 56, 0);
+
+    --border-radius: 12px;
+    --border-size: 5px;
+    --border-style: solid;
+    --border-style-secondary: dashed;
+
+    --text-color: rgba(245, 245, 245, 1);
+
+    --window-padding: 2px;
+}
+
+.window {
+}
+
+
+.monitor {
+}
+
+.workspace {
+}
+
+.client {
+  border: none;          /* Remove any border */
+  padding: var(--window-padding);
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  border-radius: var(--border-radius);
+  outline: var(--border-size) var(--border-style) var(--border-color);
+  outline-offset: -4px;  /* Reduce to a smaller negative offset */
+  box-sizing: border-box;
+}
+
+
+.client:hover {
+  outline-color: var(--border-color-active);
+  background-color: var(--bg-color-hover);
+  cursor: pointer;
+}
+
+
+.client-image {
+    border-radius: calc(var(--border-radius) - 4px);
+    object-fit: cover;
+}
+
+
+.launcher,
+.launcher-input,
+.launcher-results,
+.launcher-item,
+.launcher-exec,
+.launcher-key,
+.launcher-plugins,
+.launcher-plugin {
+    display: none !important;
+}

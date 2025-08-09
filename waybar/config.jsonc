@@ -1,0 +1,62 @@
+{
+    "layer": "top",
+    "spacing": 0,
+    "height": 35,
+
+    "margin-top": 0,
+    "margin-right": 0,
+    "margin-bottom": 5,
+    "margin-left": 0,
+
+    "modules-left": [
+        "custom/player"
+    ],
+
+    "modules-center": [
+        "hyprland/workspaces"
+    ],
+
+    "modules-right": [
+        "clock",
+        "battery",
+        "pulseaudio"
+    ],
+
+    "hyprland/workspaces": {
+        "disable-scroll": true,
+        "all-outputs": true,
+        "tooltip": false
+    },
+
+    "clock": {
+        "format": "{:%H:%M:%S | %d.%m.%y}",
+        "tooltip": false,
+        "interval": 1
+    },
+
+    "battery": {
+        "format": "b: {capacity}%",
+        "interval": 5,
+        "states": {
+            "warning": 20,
+            "critical": 10
+        },
+        "tooltip": false
+    },
+
+    "pulseaudio": {
+        "scroll-step": 5,
+        "max-volume": 150,
+        "format": "v: {volume}%",
+        "format-bluetooth": "{volume}%",
+        "nospacing": 1,
+        "on-click": "pavucontrol",
+        "tooltip": false
+    },
+    "custom/player": {
+        "exec": "~/.config/waybar/player.sh",
+        "interval": 2,
+        "return-type": "text",
+        "tooltip": false
+    }
+}
