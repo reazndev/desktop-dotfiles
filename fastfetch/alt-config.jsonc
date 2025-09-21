@@ -1,0 +1,60 @@
+{
+  "$schema": "https://github.com/fastfetch-cli/fastfetch/raw/dev/doc/json_schema.json",
+  "logo": {
+    "type": "kitty",
+    "source": "/home/reazn/Pictures/arch-meme-removebg.png",
+    "width": 36,
+    "height": 18
+  },
+  "display": {
+    "separator": "  ",
+    "constants": [
+      "─────────────────"
+    ],
+    "key": {
+      "type": "icon",
+      "paddingLeft": 0
+    }
+  },
+  "modules": [
+    {
+      "type": "custom",
+      "format": ""
+    },
+    {
+      "type": "custom",
+      "format": "╭{$1} {#1}Software Information{#} {$1}╮"
+    },
+    {
+      "type": "title",
+      "keyIcon": "",
+      "key": "Title",
+      "format": "{user-name}@{host-name}"
+    },
+    "os",
+    "de",
+    "wm",
+    "uptime",
+    "packages",
+    "shell",
+    "terminal",
+    "terminalfont",
+    "theme",
+    "icons",
+    "media",
+    {
+      "type": "custom",
+      "format": "├{$1} {#1}Hardware Information{#} {$1}┤"
+    },
+    "cpu",
+    "gpu",
+    "disk",
+    "memory",
+    "swap",
+    "display",
+    {
+      "type": "custom",
+      "format": "╰{$1}──────────────────────{$1}╯"
+    }
+  ]
+}

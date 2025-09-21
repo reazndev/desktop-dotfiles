@@ -1,7 +1,13 @@
 [DetailsMode]
 PreviewSize=22
+RightPadding=21
+
+[ExtractDialog]
+2560x1080 screen: Window-Maximized=true
+DirHistory[$e]=$HOME/Documents/BBB/M306/
 
 [General]
+LockPanels=false
 Version=202
 ViewPropsTimestamp=2025,8,6,0,29,42.468
 

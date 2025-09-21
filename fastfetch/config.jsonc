@@ -1,57 +1,60 @@
-{
-  "$schema": "https://github.com/fastfetch-cli/fastfetch/raw/dev/doc/json_schema.json",
-  "modules": [
-    "title",
-    "separator",
-    "os",
-    "kernel",
-    "uptime",
-    "packages",
-    "shell",
-    "display",
-    "de",
-    "wm",
-    "wmtheme",
-    "theme",
-    "terminal",
-    "terminalfont",
-    "cpu",
-    "gpu",
-    "memory",
-    "swap",
-    "disk",
-    "break",
-    "colors"
-  ],
+// Note that you must replace the image path to an existing image to display it.
 
-  "logo": {
-    "type": "auto",        // Logo type: auto, builtin, small, file, etc.
-    "source": "arch",      // Built-in logo name or file path
-    "width": 65,           // Width in characters (for image logos)
-    "height": 35,          // Height in characters (for image logos)
-    "padding": {
-        "top": 0,          // Top padding
-        "left": 0,         // Left padding
-        "right": 2         // Right padding
+{
+    "$schema": "https://github.com/fastfetch-cli/fastfetch/raw/dev/doc/json_schema.json",
+    // "logo": {
+    //     "type": "iterm",
+    //     "source": "/home/reazn/Pictures/cat.jpg",
+    //     "width": 28,
+    //     "height": 12
+    // },
+    "display": {
+        "separator": "  ",
+        "constants": [
+            "─────────────────" // {$1}, used in Custom module
+        ],
+        "key": {
+            "type": "icon",
+            "paddingLeft": 2
+        }
     },
-    "color": {             // Override logo colors
-        "1": "blue",
-        "2": "#F2DCF3"
-    }
-  },
-  "display": {
-    "separator": ": ",     // Separator between keys and values
-    "color": {
-        "keys": "blue",    // Key color
-        "title": "blue"     // Title color
-    },
-    "key": {
-        "width": 25,       // Aligns keys to this width
-        "type": "string"   // string, icon, both, or none
-    },
-  },
-  "cpu": {
-    "type": "cpu",
-    "format": "{name} "
+    "modules": [
+        {
+            "type": "custom", // SoftwareStart
+            "format": "╭{$1} {#1}Software Information{#} {$1}╮"
+        },
+        {
+            "type": "title",
+            "keyIcon": "",
+            "key": "Title", // Title module has no key by default, so that icon is not displayed
+            "format": "{user-name}@{host-name}"
+        },
+        "os",
+        "de",
+        "wm",
+        "uptime",
+        "packages",
+        "shell",
+        "terminal",
+        "terminalfont",
+        "theme",
+        "icons",
+        "media",
+        {
+            "type": "custom", // HardwareStart
+            // {#1} is equivalent to `\u001b[1m`. {#} is equivalent to `\u001b[m`
+            "format": "├{$1} {#1}Hardware Information{#} {$1}┤"
+        },
+        "cpu",
+        "gpu",
+        "disk",
+        "memory",
+        "swap",
+        "display",
+        {
+            "type": "custom", // InformationEnd
+            "format": "╰{$1}──────────────────────{$1}╯"
+        }
+    ]
 }
-}
+

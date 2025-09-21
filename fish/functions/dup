@@ -1,0 +1,3 @@
+function dup
+  kitty --working-directory (pwd) & 
+end
