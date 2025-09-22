@@ -15,15 +15,15 @@ function cd --description 'Change directory with case-insensitive matching'
         builtin cd
         return
     end
-    
+
     set target $argv[1]
-    
+
     # If the target exists as-is, use it directly
     if test -d "$target"
         builtin cd "$target" $argv[2..-1]
         return
     end
-    
+
     # Handle relative paths - check in current directory
     if not string match -q "/*" "$target"
         # Look for case-insensitive matches in current directory
@@ -38,7 +38,7 @@ function cd --description 'Change directory with case-insensitive matching'
         # Handle absolute paths
         set parent (dirname "$target")
         set basename (basename "$target")
-        
+
         if test -d "$parent"
             for dir in "$parent"/*/
                 set dir_name (basename "$dir")
@@ -49,7 +49,7 @@ function cd --description 'Change directory with case-insensitive matching'
             end
         end
     end
-    
+
     # If no match found, use original cd behavior (will show error)
     builtin cd "$target" $argv[2..-1]
 end
@@ -62,4 +62,3 @@ end
 
 # load aliases
 source ~/.config/fish/aliases.fish
-
