@@ -21,36 +21,36 @@ done=25.04-convert-bool-showstatusbar-to-enum-showstatusbar,kwin-6.0-reset-activ
 mtime=1757622941
 
 [migrate-calendar-to-plugin-id.upd]
-ctime=1758437469
+ctime=1758896096
 done=kwin-6.1-remove-gridview-expose-shortcuts,migrate-calendar-plugins
-mtime=1757617845
+mtime=1758749733
 
 [plasma6.0-remove-dpi-settings.upd]
-ctime=1758437469
+ctime=1758896096
 done=migrate-calendar-plugins,plasma6.0-remove-dpi-settings
-mtime=1757617845
+mtime=1758749733
 
 [plasma6.0-remove-old-shortcuts.upd]
-ctime=1758437469
+ctime=1758896096
 done=plasma6.0-remove-dpi-settings,plasma6.0-remove-old-shortcuts
-mtime=1757617845
+mtime=1758749733
 
 [plasma6.3-update-clipboard-database-2-to-3.upd]
-ctime=1758437469
+ctime=1758896096
 done=plasma6.0-remove-old-shortcuts,plasma6.3-update-clipboard-database-2-to-3
-mtime=1757617845
+mtime=1758749733
 
 [plasma6.4-migrate-fullscreen-notifications-to-dnd.upd]
-ctime=1758437469
+ctime=1758896096
 done=plasma6.3-update-clipboard-database-2-to-3,plasma6.4-migrate-fullscreen-notifications-to-dnd
-mtime=1757617845
+mtime=1758749733
 
 [plasmashell-6.0-keep-custom-position-of-panels.upd]
-ctime=1758437469
+ctime=1758896096
 done=plasma6.4-migrate-fullscreen-notifications-to-dnd,plasmashell-6.0-keep-custom-position-of-panels
-mtime=1757617845
+mtime=1758749733
 
 [plasmashell-6.0-keep-default-floating-setting-for-plasma-5-panels.upd]
-ctime=1758437469
+ctime=1758896096
 done=plasmashell-6.0-keep-custom-position-of-panels,plasmashell-6.0-keep-default-floating-setting-for-plasma-5-panels
-mtime=1757617845
+mtime=1758749733

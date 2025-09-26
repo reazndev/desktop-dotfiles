@@ -134,7 +134,7 @@ ForegroundVisited=#ebb2ff
 
 [DirSelect Dialog]
 DirSelectDialog Size=805,584
-History Items[$e]=webdavs://cloud.hilfikers.com/remote.php/dav/files/florian.ruby/music,file:$HOME/.config,file:$HOME/Pictures/homework,file:$HOME/Projects/LB335/LB335,file:$HOME/Projects/LB335,file:$HOME/Music,file:$HOME/Music,file:$HOME/Music,file:$HOME/Music,file:$HOME/Music,file:$HOME/Music,file:$HOME/Music,file:$HOME/Music,file:$HOME/Music,file:$HOME/Music,file:$HOME/Music,file:$HOME/Music,file:$HOME/Music,file:$HOME/Music,file:$HOME/Music,file:$HOME/Music,file:$HOME/Music,file:$HOME/Music,file:$HOME/Music,file:$HOME/Music,file:$HOME/Music,file:$HOME/Music,file:$HOME/Music,file:$HOME/Music,file:$HOME/Music,file:$HOME/Music,file:$HOME/Music,file:$HOME/Music,file:$HOME/Music,file:$HOME/Music,file:$HOME/Music,file:$HOME/Music,file:$HOME/Music,file:$HOME/Music,file:$HOME/Music,file:$HOME/Music,file:$HOME/Music,file:$HOME/Music,file:$HOME/Scratch/test_react,file:$HOME/Documents/projects/job-interview,file:///mnt/shared/projects,file:///mnt/shared/projects/reazn.tech,file:///mnt/shared/projects/working/src-dajia.lol-main,file:///mnt/shared/projects/leurs,file:///mnt/shared/projects/working/Habenwirmorgenopl.info
+History Items[$e]=file:$HOME/Documents/school/kanti/finals,file:$HOME/Documents/school/kanti/finals,webdavs://cloud.hilfikers.com/remote.php/dav/files/florian.ruby/music,file:$HOME/.config,file:$HOME/Pictures/homework,file:$HOME/Projects/LB335/LB335,file:$HOME/Projects/LB335,file:$HOME/Music,file:$HOME/Music,file:$HOME/Music,file:$HOME/Music,file:$HOME/Music,file:$HOME/Music,file:$HOME/Music,file:$HOME/Music,file:$HOME/Music,file:$HOME/Music,file:$HOME/Music,file:$HOME/Music,file:$HOME/Music,file:$HOME/Music,file:$HOME/Music,file:$HOME/Music,file:$HOME/Music,file:$HOME/Music,file:$HOME/Music,file:$HOME/Music,file:$HOME/Music,file:$HOME/Music,file:$HOME/Music,file:$HOME/Music,file:$HOME/Music,file:$HOME/Music,file:$HOME/Music,file:$HOME/Music,file:$HOME/Music,file:$HOME/Music,file:$HOME/Music,file:$HOME/Music,file:$HOME/Music,file:$HOME/Music,file:$HOME/Music,file:$HOME/Music,file:$HOME/Music,file:$HOME/Music,file:$HOME/Scratch/test_react,file:$HOME/Documents/projects/job-interview,file:///mnt/shared/projects,file:///mnt/shared/projects/reazn.tech,file:///mnt/shared/projects/working/src-dajia.lol-main
 Splitter State=\x00\x00\x00\xff\x00\x00\x00\x01\x00\x00\x00\x02\x00\x00\x00u\x00\x00\x02\xa8\x00\xff\xff\xff\xff\x01\x00\x00\x00\x01\x00
 
 [General]
@@ -183,3 +183,4 @@ activeForeground=222,227,230
 inactiveBackground=53,74,83
 inactiveBlend=161,169,177
 inactiveForeground=207,230,241
+
