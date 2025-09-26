@@ -28,6 +28,5 @@ alias lsg 'ls | grep '
 alias ff 'fastfetch --config ~/.config/fastfetch/alt-config.jsonc'
 
 # Git shortcuts (basic)
-alias gits 'git remote set-url origin git@github.com:reazndev/'
 alias gha 'git add .'
-alias ghc 'git commit -m "{}"'
+alias gp 'git push'

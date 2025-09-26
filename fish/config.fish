@@ -62,3 +62,5 @@ end
 
 # load aliases
 source ~/.config/fish/aliases.fish
+
+zoxide init fish --cmd cd | source

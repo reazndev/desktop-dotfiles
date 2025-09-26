@@ -5,7 +5,7 @@ function backupfish
 
     mkdir -p $BACKUP_DEST
 
-    set INCLUDE_FOLDERS ~/Public ~/Desktop ~/Pictures ~/Videos ~/Projects ~/Music ~/.ssh ~/.cert
+    set INCLUDE_FOLDERS ~/Public ~/Desktop ~/Pictures ~/Videos ~/Projects ~/.ssh ~/.cert
 
     set EXCLUDE_FOLDERS \
         .cache \
@@ -54,6 +54,7 @@ function backupfish
         .idea \
         Scratch \
         venv \
+        Music \
         .local/share/Trash \
         .local/share/recently-used.xbel
 
